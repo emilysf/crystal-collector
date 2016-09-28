@@ -1,0 +1,83 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals - Emily Frazin</title>
+
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Crystal Collector!</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="panel panel-default">
+	  				<div class="panel-heading">
+	    				<h3 class="panel-title">Instructions:</h3>
+	 				</div>
+	  				<div class="panel-body">
+	    				<p>You will be given a random number at the start of the game.</p>
+						<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+						<p>You will win the game by matching your total score to random number, you will lose the game if your total score goes above the random number.</p>
+						<p>The value of each crystal is hidden from you until you click on it.</p>
+						<p>Each time when the game starts, the game will change the values of each crystal.</p>
+	    			</div>
+	    		</div>
+				
+			</div>
+		<!-- </div> -->
+		<!-- <div class="row"> -->
+		    <div class="col-md-3">
+				<div class="panel panel-default">
+	  				<div class="panel-heading">
+	    				<h3 class="panel-title">Number to match:</h3>
+	 				</div>
+	  				<div class="panel-body">
+	    				<div id="randomNumber"></div>
+	    			</div>
+	    		</div>
+    		
+				<div class="panel panel-default">
+	  				<div class="panel-heading">
+	    				<h3 class="panel-title">Your total score is:</h3>
+	 				</div>
+	  				<div class="panel-body">
+	    				<div id="score">0</div>
+	    			</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-default">
+	  				<div class="panel-heading">
+	    				<h3 class="panel-title">Wins and Losses:</h3>
+	    			</div>
+	  				<div class="panel-body">
+	    				<div><h4>Wins: </h4><span id="wins"></span></div>
+						<div><h4>Losses: </h4><span id="losses"></span></div>
+	    			</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<img id="ruby" src="assets/images/ruby.png" alt="ruby">
+				<img id="sapphire" src="assets/images/sapphire.png" alt="sapphire">
+				<img id="emerald" src="assets/images/emerald.png" alt="emerald">
+				<img id="amethyst" src="assets/images/amethyst.png" alt="amethyst"></button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
